@@ -1,0 +1,29 @@
+.inner-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width               : 90%;
+    background-color    : white;
+    padding             : 2rem;
+    border-radius       : 5px;
+    display             : flex;
+    justify-content     : center;
+    align-items         : center;
+}
+
+.top-header{
+    margin-bottom: 50px;
+}
+
+.top-header > h2,.top-header > svg{
+    display: inline;
+}
+
+.top-header > svg{
+    color: #664de5;
+    font-size: 2rem !important;
+    margin-bottom: -8px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active,
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+    color: #664de5 !important;
+}
