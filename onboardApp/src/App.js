@@ -1,9 +1,11 @@
 import './App.css';
+import '../src/css/common.css'
+import OnboardForm from './pages/onBoard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Initial Setup Done</h1>
+      <OnboardForm />
     </div>
   );
 }
